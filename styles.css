@@ -54,6 +54,10 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+.current-page {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 #content {
     display: flex;
     flex-direction: row;
@@ -152,7 +156,7 @@ body {
     text-align: center;
 }
 
-.about-header {
+.text-header {
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
@@ -165,4 +169,16 @@ body {
 #mask {
     width: 60%;
     margin: 20px;
+}
+
+.trinket-display {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.stamp, .blinky {
+    margin: 10px;
+    width: 200px;
 }
